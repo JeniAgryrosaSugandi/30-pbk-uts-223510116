@@ -4,6 +4,10 @@ import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
+   <nav>
+      <button ><RouterLink to="/">TodoList</RouterLink></button>
+      <button><RouterLink to="/about">Post</RouterLink></button>
+    </nav>
   <header>
     <h1 style="color:cornflowerblue; font-size:48px;">Jenny Agryrosa S</h1>
   </header>
