@@ -2,7 +2,7 @@
   <div class="profile">
     <h1>Postingan</h1>
     <div>
-      <label for="users">Pilih :</label>
+      <label for="users">Pilihlah :</label>
       <select id="users" v-model="selectedUserId" @change="loadUserPosts">
         <option v-for="user in users" :key="user.id" :value="user.id">{{ user.name }}</option>
       </select>
