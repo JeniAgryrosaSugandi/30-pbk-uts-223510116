@@ -4,7 +4,7 @@ import HomeView from "../views/HomeView.vue";
 import AboutView from "../views/AboutView.vue";
 import AlbumView from "../components/AlbumView.vue";
 import AlbumDetail from "../components/AlbumDetail.vue";
-import weather from "../components/weather.vue";
+import weather from "../components/Weather.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
